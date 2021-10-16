@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Farhang TJ</string>
+    <string name="hello_blank_fragment">The list is empty</string>
+    <string name="menu_about">About</string>
+    <string name="menu_search">Search</string>
+    <string name="menu_like">Favorites</string>
+    <string name="menu_abb">Abbreviation</string>
+    <string name="dpd">© 2021</string>
+    <string name="info_text">More than 50,000 words with description in one application.</string>
+    <string name="author">Authors:</string>
+    <string name="team_lead">Khudoiberdiev Kh.A., Ph.D. in Physics, Associate Professor</string>
+    <string name="team_dev">Saidov Muhammad A., Vafoev Muhammad U. 3rd year students of KhPITTU</string>
+    <string name="email_address">saidov.developer@gmail.com</string>
+    <string name="apps_version">Version:</string>
+    <string name="settings_theme">Settings</string>
+    <string name="site">Our website:</string>
+    <string name="close">Close</string>
+    <string name="enter_text">Enter a word</string>
+    <string name="url" translatable="false">https://tajlingvo.tj</string>
+    <string name="copy_text">Copied to the clipboard.</string>
+    <string name="btn_yes">Yes</string>
+    <string name="btn_no">No</string>
+    <string name="dialog_message">Are you sure you want to clear your favorites?</string>
+    <string name="donate">Donate</string>
+    <string name="alif">alif mobi</string>
+    <string name="eshata">Эсхата онлайн</string>
+</resources>

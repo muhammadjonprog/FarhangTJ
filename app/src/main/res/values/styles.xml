@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="ButtonBottomSheet" parent="@style/Widget.AppCompat.Button">
+        <item name ="android:layout_width">300dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="background">@drawable/bg_button</item>
+        <item name="android:clickable">true</item>
+        <item name="android:focusable">true</item>
+        <item name="android:fontFamily">@font/roboto_condensed_regular</item>
+        <item name="android:foreground">attr/selectableItemBackground"></item>
+        <item name="android:text">@string/close</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="backgroundTint">#F60404</item>
+    </style>
+
+
+    <style name="ImageIcon" parent="Widget.AppCompat.ImageButton">
+        <item name="android:layout_width">30dp</item>
+        <item name="android:layout_height">30dp</item>
+        <item name="android:clickable">true</item>
+        <item name="android:focusable">true</item>
+        <item name="android:foreground">attr/selectableItemBackground</item>
+    </style>
+
+    <style name="TextViewTitle" parent="Widget.AppCompat.TextView">
+        <item name ="android:layout_width">match_parent</item>
+        <item name ="android:layout_height">match_parent</item>
+        <item name="android:layout_marginStart">6dp</item>
+        <item name="android:layout_marginLeft">6dp</item>
+        <item name="android:layout_marginEnd">6dp</item>
+        <item name="android:layout_marginRight">6dp</item>
+        <item name ="android:fontFamily">@font/roboto_medium</item>
+        <item name="android:text">Ором</item>
+        <item name= "android:textSize">16sp</item>
+        <item name= "android:textColor">#025958</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="TextViewContent" parent="Widget.AppCompat.TextView">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_marginStart">6dp</item>
+        <item name="android:layout_marginLeft">6dp</item>
+        <item name="android:layout_marginEnd">6dp</item>
+        <item name="android:layout_marginRight">6dp</item>
+        <item name="android:fontFamily">@font/roboto</item>
+        <item name="android:text">ОРОМ</item>
+        <item name="android:textColor">#025958</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textStyle">italic</item>
+    </style>
+
+    <style name="ViewBottom" parent="CardView">
+        <item name="android:layout_width">70dp</item>
+        <item name="android:layout_height">6dp</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:layout_marginTop">20dp</item>
+        <item name="android:layout_marginBottom">10dp</item>
+        <item name="android:background">@drawable/bg_bottom</item>
+    </style>
+
+    <style name="TextViewItemTitle" parent="Widget.AppCompat.TextView">
+        <item name ="android:layout_width">match_parent</item>
+        <item name ="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginStart">10dp</item>
+        <item name="android:layout_marginTop">10dp</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:fontFamily">@font/roboto_medium</item>
+        <item name="android:maxLines">1</item>
+        <item name="android:text">Title</item>
+        <item name="android:textColor">#025958</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <style name="TextViewItemContent" parent="Widget.AppCompat.TextView">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_below">@id/tvWord"</item>
+        <item name="android:layout_marginStart">10dp</item>
+        <item name="android:layout_marginTop">10dp</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:fontFamily">@font/roboto</item>
+        <item name="android:maxLines">1</item>
+        <item name="android:text">Content</item>
+        <item name="android:textColor">#025958</item>
+    </style>
+
+    <style name="IconITem" parent="Widget.AppCompat.ImageButton">
+        <item name="android:layout_width">30dp</item>
+        <item name="android:layout_height">30dp</item>
+        <item name="android:layout_alignParentStart">true</item>
+        <item name="android:layout_alignParentTop">true</item>
+        <item name="android:layout_alignParentEnd">true</item>
+        <item name="android:layout_alignParentBottom">true</item>
+        <item name="android:layout_marginStart">22dp</item>
+        <item name="android:layout_marginTop">22dp</item>
+        <item name="android:layout_marginEnd">22dp</item>
+        <item name="android:layout_marginBottom">22dp</item>
+        <item name="android:background">@drawable/ic_baseline_content_copy_24</item>
+    </style>
+
+</resources>

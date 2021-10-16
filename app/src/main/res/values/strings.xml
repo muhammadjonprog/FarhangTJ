@@ -1,0 +1,53 @@
+<resources>
+    <string name="app_name">Farhang TJ</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Список пуст</string>
+    /// локализация
+    <string name="menu_about">О программы</string>
+    <string name="menu_search">Поиск</string>
+    <string name="menu_like">Избранные</string>
+    <string name="menu_abb">Аббревиатура</string>
+    <string name="dpd">© 2021</string>
+    <string name="info_text">Более 50 000 таджикских слов с описанием в одном приложении.</string>
+    <string name="author">Авторы:</string>
+    <string name="team_lead">Худойбердиев Х.А., к.н.ф.м., доцент</string>
+    <string name="team_dev">Саидов Мухаммад А., Вафоев Мухаммад У. студенты 3-го курса ХПИТТУ</string>
+    <string name="email_address">saidov.developer@gmail.com</string>
+    <string name="apps_version">Версия:</string>
+    <string name="settings_theme">Настройки</string>
+    <string name="site">Наш сайт:</string>
+    <string name="url">https://tajlingvo.tj</string>
+    <string name="close">Закрыть</string>
+    <string name="enter_text">Введите слово</string>
+    <string name="btn_yes">Да</string>
+    <string name="btn_no">Нет</string>
+    <string name="dialog_message">Вы действительно хотите очистить избранные?</string>
+    <string name="donate">Поддержать проект</string>
+    <string name="alif">alif mobi</string>
+    <string name="eshata">Эсхата онлайн</string>
+    <string name="copy_text">Скопирован в буфер обмена.</string>
+    <string name="dds" translatable="false">d в буфер обмена.</string>
+
+</resources>
+
+
+    <!--    <?xml version="1.0" encoding="utf-8"?>-->
+    <!--<resources>-->
+    <!--<string name="app_name">Фарҳанги забони тоҷикӣ</string>-->
+    <!--<string name="hello_blank_fragment">the List is empty</string>-->
+    <!--<string name="menu_about">About</string>-->
+    <!--<string name="menu_search">Search</string>-->
+    <!--<string name="menu_like">Favorites</string>-->
+    <!--<string name="menu_abb">Abbreviation</string>-->
+    <!--<string name="dpd">KhPITTU-2021</string>-->
+    <!--<string name="info_text">More than 50,000 words with description in one application.</string>-->
+    <!--<string name="author">Authors:</string>-->
+    <!--<string name="team_lead">Khudoiberdiev Kh.A., Ph.D. in Physics, Associate Professor</string>-->
+    <!--<string name="team_dev">Saidov Muhammad A. 3rd year student of KhPITTU</string>-->
+    <!--<string name="email_address">saidov.developer@gmail.com</string>-->
+    <!--<string name="apps_version">Version:</string>-->
+    <!--<string name="settings_theme">Settings</string>-->
+    <!--<string name="site">Our website:</string>-->
+    <!--<string name="close">Close</string>-->
+    <!--<string name="url">https://tajlingvo.tj</string>-->
+    <!--</resources>-->
