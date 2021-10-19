@@ -3,7 +3,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:id="@+id/cardViewAbb"
     android:layout_width="match_parent"
-    android:layout_height="60dp"
+    android:layout_height="70dp"
     android:layout_marginTop="2dp"
     android:layout_marginBottom="2dp"
     android:background="@color/white"

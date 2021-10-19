@@ -1,9 +1,5 @@
 package com.e2group.farhang.Adapter;
 
-import android.app.AlertDialog;
-import android.app.Dialog;
-import android.content.ClipData;
-import android.content.ClipboardManager;
 import android.content.Context;
 import android.content.Intent;
 import android.view.LayoutInflater;
@@ -12,9 +8,7 @@ import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
-import android.widget.ScrollView;
 import android.widget.TextView;
-import android.widget.Toast;
 
 import androidx.annotation.NonNull;
 import androidx.cardview.widget.CardView;
@@ -57,12 +51,12 @@ public class FavoriteAdapter extends PagedListAdapter<Word, FavoriteAdapter.Favo
     }
 
     public class FavoriteViewHolder extends RecyclerView.ViewHolder {
-        public TextView tvWordDelete;
+        public TextView tvWordDeleteTitle, tvWordDeleteContent;
         public CardView cardView;
         public ImageView ivDeleteItem;
         public View bottomSheetView;
         public BottomSheetDialog bottomSheetDialog = new BottomSheetDialog(context, R.style.BottomSheetDialogTheme);
-        public TextView tvDescription;
+        public TextView tvBottomTextTitle, tvBottomTextContent;
         public Button btnClose;
 
         public FavoriteViewHolder(View itemView) {
@@ -71,16 +65,19 @@ public class FavoriteAdapter extends PagedListAdapter<Word, FavoriteAdapter.Favo
                     R.layout.layout_bottom_sheet_favorite, (LinearLayout) itemView.findViewById(R.id.bottom_sheet_container_fav)
             );
             ivDeleteItem = itemView.findViewById(R.id.ivDeleteItem);
-            tvWordDelete = itemView.findViewById(R.id.tvFavoriteWord);
+            tvWordDeleteTitle = itemView.findViewById(R.id.tvFavoriteWordTitle);
+            tvWordDeleteContent = itemView.findViewById(R.id.tvFavoriteWordContent);
             cardView = itemView.findViewById(R.id.cardView);
             btnClose = bottomSheetView.findViewById(R.id.btnCloseBotFav);
-            tvDescription = bottomSheetView.findViewById(R.id.tvDescriptionDialogFav);
+            tvBottomTextTitle = bottomSheetView.findViewById(R.id.tvWordDialogFav);
+            tvBottomTextContent = bottomSheetView.findViewById(R.id.tvDescriptionDialogFav);
         }
 
         public void onBind(Word word) {
-            tvWordDelete.setText(getCurrentList().get(getLayoutPosition()).getWords().toLowerCase());
+            tvWordDeleteTitle.setText(getCurrentList().get(getLayoutPosition()).getWords().toLowerCase());
+            tvWordDeleteContent.setText(getCurrentList().get(getLayoutPosition()).getValue().toLowerCase());
             cardView.setOnClickListener(view -> {
-                tvDescription.setText(getCurrentList().get(getLayoutPosition()).getValue());
+                tvBottomTextTitle.setText(getCurrentList().get(getLayoutPosition()).getValue());
                 bottomSheetDialog.show();
             });
 

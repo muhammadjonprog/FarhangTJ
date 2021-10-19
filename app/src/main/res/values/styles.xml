@@ -101,4 +101,19 @@
         <item name="android:background">@drawable/ic_baseline_content_copy_24</item>
     </style>
 
+
+    <style name="IconITemDelete" parent="Widget.AppCompat.ImageButton">
+        <item name="android:layout_width">30dp</item>
+        <item name="android:layout_height">30dp</item>
+        <item name="android:layout_alignParentStart">true</item>
+        <item name="android:layout_alignParentTop">true</item>
+        <item name="android:layout_alignParentEnd">true</item>
+        <item name="android:layout_alignParentBottom">true</item>
+        <item name="android:layout_marginStart">22dp</item>
+        <item name="android:layout_marginTop">22dp</item>
+        <item name="android:layout_marginEnd">22dp</item>
+        <item name="android:layout_marginBottom">22dp</item>
+        <item name="android:background">@drawable/ic_baseline_delete_forever_24</item>
+    </style>
+
 </resources>

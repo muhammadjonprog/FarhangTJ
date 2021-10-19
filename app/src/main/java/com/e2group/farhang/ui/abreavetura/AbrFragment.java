@@ -26,7 +26,6 @@ import androidx.recyclerview.widget.RecyclerView;
 import com.e2group.farhang.Adapter.AbbAdapter;
 import com.e2group.farhang.R;
 import com.e2group.farhang.View.AboutActivity;
-import com.e2group.farhang.View.AboutFragment;
 
 
 public class AbrFragment extends Fragment implements AutoCompleteTextView.OnEditorActionListener {
